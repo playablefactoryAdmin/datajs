@@ -6,7 +6,7 @@
 - **id (string)**: A unique identifier.
 - **name (string)**: A human-readable name.
 - **desc (string)**: A description.
-- **default (string | null)**: The default value, which can be a file path or `null`.
+- **default (string | null)**: The default value, which can be a base64 or `null`.
 - **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
@@ -19,6 +19,6 @@ Here's an example of how to use `Video`:
   "id": "uniqueIdentifier",
   "name": "Introduction Video",
   "desc": "Embeds an introductory video on the website.",
-  "default": "intro_video.mp4",
+  "default": "base64...",
   "tab": "Home"
 }

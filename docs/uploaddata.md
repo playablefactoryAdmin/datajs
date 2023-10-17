@@ -6,7 +6,7 @@
 - **id (string)**: A unique identifier.
 - **name (string)**: A human-readable name.
 - **desc (string)**: A description.
-- **default (string | null)**: The default value, which can be a file path or `null`.
+- **default (string | null)**: The default value, which can be a base64 or `null`.
 - **acceptableTypes (string)**: Acceptable file types.
 - **tab (string, Optional)**: The tab where the data belongs.
 
