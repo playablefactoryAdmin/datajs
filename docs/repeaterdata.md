@@ -25,7 +25,10 @@ Here's an example of how to use `Repeater`:
   "default": [
     {
       "taskName": "Task 1",
-      "description": "Description for Task 1"
+      "description": "",
+      "taskText": "Some Text",
+      "taskColor": "#172538",
+      "taskImgSrc": null
     }
   ],
   "min": 1,
@@ -33,8 +36,26 @@ Here's an example of how to use `Repeater`:
   "template": {
     "templateName": "taskTemplate",
     "items": [
-      /* List of DataItems representing a task template */
+      {
+        "type": "text",
+        "id": "taskText",
+        "name": "Task text:",
+        "default": "Test"
+      },
+      {
+        "type": "color",
+        "id": "taskColor",
+        "name": "Task Color:",
+        "default": "#f9910c"
+      },
+      {
+        "type": "image",
+        "id": "taskImgSrc",
+        "name": "Upload Task Image:",
+        "default": null
+      }
     ]
   },
   "tab": "Tasks"
 }
+```
