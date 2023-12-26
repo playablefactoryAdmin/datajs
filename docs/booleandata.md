@@ -24,3 +24,7 @@ Here's an example of how to use `Boolean`:
   "items": [],
   "tab": "Settings"
 }
+```
+
+## Returns
+Javascript Boolean: `true` or `false`

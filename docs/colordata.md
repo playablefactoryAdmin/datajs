@@ -22,3 +22,7 @@ Here's an example of how to use `Color`:
   "default": "#FFFFFF",
   "tab": "fast"
 }
+```
+
+## Returns
+Hex Color Code: `#ffffff`

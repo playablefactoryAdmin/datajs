@@ -28,3 +28,7 @@ Here's an example of how to use `Range`:
   "step": 1,
   "tab": "Fast"
 }
+```
+
+## Returns
+Javascript Number: `0` or `1` or `2` ...

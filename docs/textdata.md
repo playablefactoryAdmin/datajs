@@ -43,3 +43,17 @@ Here's an example of how to use `Text`:
   },
   "tab": "Home"
 }
+```
+
+## Returns
+Without multiline, JavaScript String: `Download Now`
+With multiline (or other options), Javascript Object:
+```js
+{
+  "text": "Tired of big payments? Use your\nfinger to slash and save.",
+  "multiline": {
+      "enabled": true,
+      "lineHeight": 1.5
+  }
+}
+```

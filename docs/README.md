@@ -30,3 +30,5 @@ Welcome to the documentation for Data.js. This documentation provides informatio
 - [Advanced Types](advancedtypes.md)
   - [Custom](customdata.md)
   - [Repeater](repeaterdata.md)
+
+- [Quick Convert](quickconvert.md)
