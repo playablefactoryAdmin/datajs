@@ -12,7 +12,6 @@
 - **color (string, Optional)**: Text color.
 - **stroke (object, Optional)**: An object with `color` (string) and `thickness` (number).
 - **shadow (object, Optional)**: An object with `color` (string), `x` (number), `y` (number), and `blur` (number).
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -41,7 +40,6 @@ Here's an example of how to use `Text`:
     "y": 1,
     "blur": 2
   },
-  "tab": "Home"
 }
 ```
 
