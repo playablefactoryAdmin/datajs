@@ -10,7 +10,6 @@
 - **min (number)**: The minimum number of repetitions.
 - **max (number)**: The maximum number of repetitions.
 - **template (object)**: An object with `templateName` (string) and `items` (DataItem[]).
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -56,6 +55,5 @@ Here's an example of how to use `Repeater`:
       }
     ]
   },
-  "tab": "Tasks"
 }
 ```
