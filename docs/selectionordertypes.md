@@ -38,4 +38,10 @@ The `Order` data type allows you to define the order of options. It's used for p
 
 [Learn more about OrderImage Data](orderimagedata.md)
 
+## PoolImage
+
+`PoolImage` is similar to `OrderImage` but tailored for a large amount of options. You can set the sequence of images selected from a pool. It also allows user to select multiple types of the same item if configured.
+
+[Learn more about PoolImage Data](poolimagedata.md)
+
 These selection and order types provide the tools you need to handle choices, priorities, and ordering of data in your applications or projects.
