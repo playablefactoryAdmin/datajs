@@ -8,7 +8,6 @@
 - **desc (string)**: A description.
 - **default (never)**: The default value (never used).
 - **execute (string)**: Execution command.
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -21,5 +20,4 @@ Here's an example of how to use `Custom`:
   "name": "Custom Action",
   "desc": "Allows the execution of a custom action.",
   "execute": "customCommand",
-  "tab": "Custom"
 }
