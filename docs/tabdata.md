@@ -8,7 +8,6 @@
 - **desc (string)**: A description.
 - **default (number)**: The default value.
 - **list (array)**: An array of objects with `name` (string) and `items` (DataItem[]).
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -31,5 +30,4 @@ Here's an example of how to use `Tab`:
       "items": [/* DataItem objects for product specifications */]
     }
   ],
-  "tab": "fast"
 }
