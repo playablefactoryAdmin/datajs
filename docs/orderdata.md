@@ -10,7 +10,6 @@
 - **min (number)**: The minimum number of options in the order.
 - **max (number)**: The maximum number of options in the order.
 - **options (string[])**: List of available options.
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -26,5 +25,4 @@ Here's an example of how to use `Order`:
   "min": 3,
   "max": 5,
   "options": ["High", "Medium", "Low", "Urgent", "Normal"],
-  "tab": "Tasks"
 }
