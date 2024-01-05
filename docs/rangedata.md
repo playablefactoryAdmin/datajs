@@ -10,7 +10,6 @@
 - **min (number)**: The minimum value.
 - **max (number)**: The maximum value.
 - **step (number)**: The step value.
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -26,7 +25,6 @@ Here's an example of how to use `Range`:
   "min": 0,
   "max": 100,
   "step": 1,
-  "tab": "Fast"
 }
 ```
 
