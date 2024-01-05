@@ -12,7 +12,6 @@
 - **min (number, Optional)**: Minimum number of selections.
 - **max (number, Optional)**: Maximum number of selections.
 - **size (string)**: Specifies the image size ("sm," "md," "lg").
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -30,5 +29,4 @@ Here's an example of how to use `SelectImage`:
   "min": 1,
   "max": 1,
   "size": "md",
-  "tab": "Profile"
 }
