@@ -9,7 +9,6 @@
 - **default (undefined)**: The default value (undefined, as it's not a selectable value).
 - **accordion (boolean)**: Whether the group functions as an accordion, allowing expansion and collapse.
 - **items (DataItem[])**: A list of DataItems.
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -26,5 +25,4 @@ Here's an example of how to use `Group`:
   "items": [
     /* List of DataItems representing product details */
   ],
-  "tab": "Product"
 }
