@@ -11,7 +11,6 @@
 - **max (number)**: The maximum number of options in the order.
 - **options (string[])**: List of available image options.
 - **size (string)**: Specifies the image size ("sm," "md," "lg").
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -28,5 +27,4 @@ Here's an example of how to use `OrderImage`:
   "max": 5,
   "options": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"],
   "size": "md",
-  "tab": "Slideshow"
 }
