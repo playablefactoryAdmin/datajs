@@ -10,6 +10,7 @@
         - [SelectImage](selectimagedata.md)
         - [Order](orderdata.md)
         - [OrderImage](orderimagedata.md)
+        - [PoolImage](poolimagedata.md)
     - [Upload Types](uploadtypes.md)
         - [Upload](uploaddata.md)
         - [Audio](audiodata.md)
