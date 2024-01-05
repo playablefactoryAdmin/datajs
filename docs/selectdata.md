@@ -11,7 +11,6 @@
 - **options (string[])**: List of available options.
 - **min (number, Optional)**: Minimum number of selections.
 - **max (number, Optional)**: Maximum number of selections.
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -28,5 +27,4 @@ Here's an example of how to use `Select`:
   "options": ["Apple", "Banana", "Cherry", "Orange"],
   "min": 1,
   "max": 3,
-  "tab": "fast"
 }
