@@ -8,7 +8,6 @@
 - **desc (string)**: A description.
 - **default (boolean)**: The default value.
 - **items (DataItem[])**: A list of DataItems.
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -22,7 +21,6 @@ Here's an example of how to use `Boolean`:
   "desc": "Indicates whether the item is active or not.",
   "default": true,
   "items": [],
-  "tab": "Settings"
 }
 ```
 
