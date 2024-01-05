@@ -7,7 +7,6 @@
 - **name (string)**: A human-readable name.
 - **desc (string)**: A description.
 - **default (string)**: The default value.
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -20,7 +19,6 @@ Here's an example of how to use `Color`:
   "name": "Background Color",
   "desc": "Defines the background color of an element.",
   "default": "#FFFFFF",
-  "tab": "fast"
 }
 ```
 
