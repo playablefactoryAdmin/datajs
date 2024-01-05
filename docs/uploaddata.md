@@ -8,7 +8,6 @@
 - **desc (string)**: A description.
 - **default (string | null)**: The default value, which can be a base64 or `null`.
 - **acceptableTypes (string)**: Acceptable file types.
-- **tab (string, Optional)**: The tab where the data belongs.
 
 ## Example
 
@@ -22,5 +21,4 @@ Here's an example of how to use `Upload`:
   "desc": "Allows the user to upload their resume.",
   "default": null,
   "acceptableTypes": "application/pdf, application/msword",
-  "tab": "Profile"
 }
