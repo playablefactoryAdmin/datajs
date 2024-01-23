@@ -9,7 +9,8 @@
 - **default (any[])**: The default value, which is an array of items.
 - **min (number)**: The minimum number of repetitions.
 - **max (number)**: The maximum number of repetitions.
-- **template (object)**: An object with `templateName` (string) and `items` (DataItem[]).
+- **defaultLimit (number)**: When default limit is set to x, the default value will only contain the first x items in default property. When new items are added, they are taken from the same index position default item. If max is larger than the default array, remaining items are initialized normally.
+- **template (object)**: An object with `templateName` (string) and `items` (DataItem[]). Template name can contain $index, which will be replaced by the index of the item.
 
 ## Example
 
