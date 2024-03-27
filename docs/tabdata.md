@@ -7,7 +7,13 @@
 - **name (string)**: A human-readable name.
 - **desc (string)**: A description.
 - **default (number)**: The default value.
-- **list (array)**: An array of objects with `name` (string) and `items` (DataItem[]).
+- **list (array)**: An array of objects with type:
+   {
+		name: string;
+		icon?: string; // Icon key from assets
+		hideName?: boolean;
+		items: DataItem[];
+	}
 
 ## Example
 
