@@ -7,7 +7,9 @@
 - **name (string)**: A human-readable name.
 - **desc (string)**: A description.
 - **default (number)**: The default value.
-- **list (array)**: An array of objects with `name` (string) and `items` (DataItem[]).
+- **list (array)**: An array of objects with `name` (string) and `items` (DataItem[]). Optional properties include:
+  - `icon` (string): Asset key of an icon for the tab.
+  - `hideName` (boolean): Hide the name of the tab so only the icon shows.
 
 ## Example
 
