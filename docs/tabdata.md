@@ -11,6 +11,7 @@
   - `icon` (string): Asset key of an icon for the tab.
   - `hideName` (boolean): Hide the name of the tab so only the icon shows.
 
+
 ## Example
 
 Here's an example of how to use `Tab`:
