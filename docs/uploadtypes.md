@@ -1,11 +1,12 @@
 # Upload Types
 
-In the Data.js library, you'll find data types specifically designed for handling file uploads and media content. These types allow you to work with files, audio, video, and images. This section provides documentation for the following upload types:
+In the Data.js library, you'll find data types specifically designed for handling file uploads and media content. These types allow you to work with files, audio, video, images, and fonts. This section provides documentation for the following upload types:
 
 - [Upload](uploaddata.md)
 - [Audio](audiodata.md)
 - [Video](videodata.md)
 - [Image](imagedata.md)
+- [Font](fontdata.md)
 
 ## Upload
 
@@ -31,4 +32,10 @@ The `Image` data type is tailored for working with images. It's suitable for app
 
 [Learn more about Image Data](imagedata.md)
 
-These upload types are essential for projects that involve file handling, multimedia content, and image management.
+## Font
+
+The `Font` data type is designed for handling font files. It enables applications to include custom fonts, and also choose fonts from the gearbox assets.
+
+[Learn more about Font Data](fontdata.md)
+
+These upload types are essential for projects that involve file handling, multimedia content, image management, and typography customization.
