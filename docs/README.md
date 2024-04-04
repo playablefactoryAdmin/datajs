@@ -22,6 +22,7 @@ Welcome to the documentation for Data.js. This documentation provides informatio
   - [Audio](audiodata.md)
   - [Video](videodata.md)
   - [Image](imagedata.md)
+  - [Font](fontdata.md)
 
 - [Group Types](grouptypes.md)
   - [Tab](tabdata.md)
