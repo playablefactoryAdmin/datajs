@@ -7,7 +7,6 @@
 - **name (string)**: A human-readable name.
 - **desc (string)**: A description.
 - **default (string | null)**: The default value, which can be a base64 or `null`.
-- **library (boolean optional)**: Whether the asset library should be integrated into this input.
 - **librarySize ("xs"-"xl" optional)**: The size that the selected image from the library will be resized to.
 
 ## Example
