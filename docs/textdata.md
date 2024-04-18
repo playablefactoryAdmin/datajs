@@ -38,8 +38,8 @@ Here's an example of how to use `Text`:
   "shadow": {
     "color": "#000000",
     "alpha": 0.5,
-    "x": 1,
-    "y": 1,
+    "angle": 0.4,
+    "distance": 5,
     "blur": 2
   },
 }
