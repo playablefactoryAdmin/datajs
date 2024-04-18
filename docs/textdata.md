@@ -37,9 +37,7 @@ Here's an example of how to use `Text`:
     "thickness": 2
   },
   "shadow": {
-    "color": {
-      
-    },
+    "color": "#000000",
     "x": 1,
     "y": 1,
     "blur": 2
