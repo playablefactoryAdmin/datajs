@@ -11,7 +11,7 @@
 - **align (string, Optional)**: Text alignment ("left," "center," "right").
 - **color (string, Optional)**: Text color.
 - **stroke (object, Optional)**: An object with `color` (string) and `thickness` (number).
-- **shadow (object, Optional)**: An object with `color` (string), `x` (number), `y` (number), and `blur` (number).
+- **shadow (object, Optional)**: An object with `color` (string), `alpha` (number), `x` (number), `y` (number), and `blur` (number).
 - **tts (object, Optional)**: An object with `data` (string | null) (base64 mp3), `gender` (number), `pitch` (number), and `language` (string).
 
 ## Example
@@ -33,10 +33,13 @@ Here's an example of how to use `Text`:
   "color": "#0074E4",
   "stroke": {
     "color": "#FFFFFF",
+    "alpha": 0.5,
     "thickness": 2
   },
   "shadow": {
-    "color": "rgba(0, 0, 0, 0.5)",
+    "color": {
+      
+    },
     "x": 1,
     "y": 1,
     "blur": 2
