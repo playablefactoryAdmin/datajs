@@ -33,11 +33,11 @@ Here's an example of how to use `Text`:
   "color": "#0074E4",
   "stroke": {
     "color": "#FFFFFF",
-    "alpha": 0.5,
     "thickness": 2
   },
   "shadow": {
     "color": "#000000",
+    "alpha": 0.5,
     "x": 1,
     "y": 1,
     "blur": 2
