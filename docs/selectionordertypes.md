@@ -44,4 +44,13 @@ The `Order` data type allows you to define the order of options. It's used for p
 
 [Learn more about PoolImage Data](poolimagedata.md)
 
+## SlotImage
+
+`SlotImage` is a type of order image that is needed when the amonut of selected items is smaller than the total, but is not flexible and needs to be ordered.
+
+[Learn more about SlotImage Data](slotimagedata.md)
+
 These selection and order types provide the tools you need to handle choices, priorities, and ordering of data in your applications or projects.
+
+
+
