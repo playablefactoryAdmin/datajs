@@ -34,7 +34,7 @@ Here's an example of how to use `Repeater`:
   "min": 1,
   "max": 5,
   "template": {
-    "templateName": "taskTemplate",
+    "templateName": "taskTemplate $index",
     "items": [
       {
         "type": "text",
