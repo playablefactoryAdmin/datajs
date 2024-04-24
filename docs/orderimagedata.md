@@ -11,6 +11,8 @@
 - **max (number)**: The maximum number of options in the order.
 - **options (string[])**: List of available image options.
 - **size (string)**: Specifies the image size ("sm," "md," "lg").
+- **display ("cover" | "contain" | "responsive") (optional)**: how to display the image in the editor (default cover).
+
 
 ## Example
 
@@ -27,4 +29,5 @@ Here's an example of how to use `OrderImage`:
   "max": 5,
   "options": ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"],
   "size": "md",
+  "display": "cover"
 }
