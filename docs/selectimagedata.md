@@ -12,6 +12,7 @@
 - **min (number, Optional)**: Minimum number of selections.
 - **max (number, Optional)**: Maximum number of selections.
 - **size (string)**: Specifies the image size ("sm," "md," "lg").
+- **display ("cover" | "contain" | "responsive") (optional)**: how to display the image in the editor (default cover).
 
 ## Example
 
@@ -29,4 +30,5 @@ Here's an example of how to use `SelectImage`:
   "min": 1,
   "max": 1,
   "size": "md",
+  "display": "responsive"
 }
