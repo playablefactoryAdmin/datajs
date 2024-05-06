@@ -9,7 +9,6 @@
 - **default (number | number[])**: The default value(s).
 - **multipleSelection (boolean)**: Allows multiple selections.
 - **options (string[])**: List of available options.
-- **min (number, Optional)**: Minimum number of selections.
 - **max (number, Optional)**: Maximum number of selections.
 
 ## Example
