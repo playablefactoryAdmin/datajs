@@ -16,6 +16,8 @@ Welcome to the documentation for Data.js. This documentation provides informatio
   - [SelectImage](selectimagedata.md)
   - [Order](orderdata.md)
   - [OrderImage](orderimagedata.md)
+  - [PoolImage](poolimagedata.md)
+  - [SlotImage](slotimagedata.md)
 
 - [Upload Types](uploadtypes.md)
   - [Upload](uploaddata.md)
