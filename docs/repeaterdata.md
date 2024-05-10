@@ -2,6 +2,8 @@
 
 `Repeater` is a data type used to represent a repeatable or iterable data structure. It allows you to define a list of data items that can be repeated multiple times, such as a list of items, tasks, or elements. Here are the attributes associated with `Repeater`:
 
+!! Please do not put repeaters in other repeaters.
+
 - **type (string)**: "repeater"
 - **id (string)**: A unique identifier.
 - **name (string)**: A human-readable name.
