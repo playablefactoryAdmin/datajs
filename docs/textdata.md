@@ -13,7 +13,7 @@
 - **stroke (object, Optional)**: An object with `color` (string) and `thickness` (number).
 - **shadow (object, Optional)**: An object with `color` (string), `alpha` (number), `x` (number), `y` (number), and `blur` (number).
 - **tts (object, Optional)**: An object with `data` (string | null) (base64 mp3), `gender` (number), `pitch` (number), and `language` (string).
-```
+```typescript
 enum Gender {
 	SSML_VOICE_GENDER_UNSPECIFIED,
 	MALE,
