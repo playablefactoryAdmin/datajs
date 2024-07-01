@@ -13,6 +13,24 @@
 - **stroke (object, Optional)**: An object with `color` (string) and `thickness` (number).
 - **shadow (object, Optional)**: An object with `color` (string), `alpha` (number), `x` (number), `y` (number), and `blur` (number).
 - **tts (object, Optional)**: An object with `data` (string | null) (base64 mp3), `gender` (number), `pitch` (number), and `language` (string).
+```
+enum Gender {
+	SSML_VOICE_GENDER_UNSPECIFIED,
+	MALE,
+	FEMALE,
+	NEUTRAL,
+}
+
+const Languages = [
+	"en-US",
+	"en-GB",
+	"fr-FR",
+	"tr-TR",
+	"ar-XA",
+	"es-ES",
+	"de-DE"
+]
+```
 
 ## Example
 
@@ -42,6 +60,12 @@ Here's an example of how to use `Text`:
     "distance": 5,
     "blur": 2
   },
+  "tts": {
+    "data": null,
+    "gender": 1,
+    "pitch": 0,
+    "language": "tr-TR"
+  }
 }
 ```
 
