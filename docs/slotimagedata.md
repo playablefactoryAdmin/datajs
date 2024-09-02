@@ -5,8 +5,10 @@
 - **type (string)**: "slotImage"
 - **count (number)**: The number of slots available for images.
 - **options (string[])**: List of available image options.
-- **size (string)**: Specifies the image size ("sm," "md").
+- **size (string)**: Specifies the image size ("sm," "md", "lg").
 - **display ("cover" | "contain" | "responsive")**: How the images are displayed within the slots (default is "cover").
+- **overflow (boolean)**: If the options can be scrolled. Usefull if you have many options and want larger images.
+
 
 ## Example
 
