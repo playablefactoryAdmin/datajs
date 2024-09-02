@@ -12,6 +12,7 @@
 - **options (string[])**: List of available image options.
 - **size (string)**: Specifies the image size ("sm," "md," "lg").
 - **display ("cover" | "contain" | "responsive") (optional)**: how to display the image in the editor (default cover).
+- **overflow (boolean)**: If the options can be scrolled. Usefull if you have many options and want larger images.
 
 
 ## Example
