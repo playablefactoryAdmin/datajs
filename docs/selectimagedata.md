@@ -12,7 +12,7 @@
 - **min (number, Optional)**: Minimum number of selections.
 - **max (number, Optional)**: Maximum number of selections.
 - **size (string)**: Specifies the image size ("sm," "md," "lg").
-- **display ("cover" | "contain" | "responsive") (optional)**: how to display the image in the editor (default cover).
+- **display ("cover" | "contain" | "responsive")**: how to display the image in the editor (default cover).
 
 ## Example
 
