@@ -11,6 +11,7 @@
 - **options (string[])**: List of available options.
 - **min (number, Optional)**: Minimum number of selections.
 - **max (number, Optional)**: Maximum number of selections.
+- **layout ("auto" "flex", Optional default "auto")**: Automatically align vertical or horizontal, or put options in a "flex" layout with wrap at the end of line.
 
 ## Example
 
