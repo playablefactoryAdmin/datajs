@@ -12,6 +12,7 @@
 - **color (string, Optional)**: Text color.
 - **stroke (object, Optional)**: An object with `color` (string) and `thickness` (number).
 - **shadow (object, Optional)**: An object with `color` (string), `alpha` (number), `x` (number), `y` (number), and `blur` (number).
+- **hideInput (bool, Optional)**: To hide the text input part of the component in case you only need the style information.
 - **tts (object, Optional)**: An object with `data` (string | null) (base64 mp3), `gender` (number), `pitch` (number), and `language` (string).
 ```typescript
 enum Gender {
