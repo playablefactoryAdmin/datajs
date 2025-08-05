@@ -19,5 +19,5 @@ Here's an example of how to use `Image`:
   "id": "uniqueIdentifier",
   "name": "Profile Picture",
   "desc": "Stores the user's profile picture.",
-  "default": "base64...",
+  "default": null,
 }
