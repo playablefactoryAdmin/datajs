@@ -4,15 +4,21 @@ Welcome to the documentation for Data.js. This documentation provides informatio
 
 ## Table of Contents
 
+- [Common Fields](commonfields.md)
+- [GlobalProps](globalprops.md)
+
 - [Basic Types](basictypes.md)
   - [Boolean](booleandata.md)
   - [Range](rangedata.md)
   - [Color](colordata.md)
+  - [ColorAdvanced](coloradvanceddata.md)
   - [Text](textdata.md)
+  - [RichText](richtextdata.md)
 
 - [Selection/Order Types](selectionordertypes.md)
   - [Select](selectdata.md)
   - [Dropdown](dropdowndata.md)
+  - [SlotText](slottextdata.md)
   - [SelectImage](selectimagedata.md)
   - [Order](orderdata.md)
   - [OrderImage](orderimagedata.md)
@@ -29,6 +35,18 @@ Welcome to the documentation for Data.js. This documentation provides informatio
 - [Group Types](grouptypes.md)
   - [Tab](tabdata.md)
   - [Group](groupdata.md)
+
+- [AI Types](aitypes.md)
+  - [Voiceover](voiceoverdata.md)
+  - [AudioWithAI](audiowithaidata.md)
+  - [AIAvatar](aiavatardata.md)
+
+- [End Card / Shell Types](endcardtypes.md)
+  - [Preloader](preloaderdata.md)
+  - [Version](versiondata.md)
+  - [CustomFields](customfieldsdata.md)
+  - [IEC (Legacy)](iecdata.md)
+  - [IEC2](iec2data.md)
 
 - [Advanced Types](advancedtypes.md)
   - [Custom](customdata.md)

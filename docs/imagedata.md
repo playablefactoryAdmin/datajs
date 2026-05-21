@@ -6,8 +6,10 @@
 - **id (string)**: A unique identifier.
 - **name (string)**: A human-readable name.
 - **desc (string)**: A description.
-- **default (string | null)**: The default value, which can be a base64 or `null`.
-- **librarySize ("xs"-"xl" optional)**: The size that the selected image from the library will be resized to.
+- **default (string | null)**: The default value, which can be a base64 string or `null`.
+- **width (number, Optional)**: Target width that the uploaded/selected image will be resized to.
+- **height (number, Optional)**: Target height that the uploaded/selected image will be resized to.
+- **librarySize ("xs" | "sm" | "md" | "lg" | "xl", Optional)**: The size that the selected image from the library will be resized to.
 
 ## Example
 
@@ -20,4 +22,8 @@ Here's an example of how to use `Image`:
   "name": "Profile Picture",
   "desc": "Stores the user's profile picture.",
   "default": null,
+  "width": 512,
+  "height": 512,
+  "librarySize": "md"
 }
+```

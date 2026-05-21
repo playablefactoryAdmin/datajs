@@ -4,9 +4,12 @@ In the Data.js library, you'll find a set of data types designed to handle selec
 
 - [Select](selectdata.md)
 - [Dropdown](dropdowndata.md)
+- [SlotText](slottextdata.md)
 - [SelectImage](selectimagedata.md)
 - [Order](orderdata.md)
 - [OrderImage](orderimagedata.md)
+- [PoolImage](poolimagedata.md)
+- [SlotImage](slotimagedata.md)
 
 ## Select
 
@@ -19,6 +22,12 @@ The `Select` data type is used for representing selections from a list of option
 The `Dropdown` data type is similar to `Select` but presented in a dropdown interface. It enables users to select one or more options from a list.
 
 [Learn more about Dropdown Data](dropdowndata.md)
+
+## SlotText
+
+`SlotText` is a fixed-count, ordered selection from a pool of text options.
+
+[Learn more about SlotText Data](slottextdata.md)
 
 ## SelectImage
 
@@ -40,17 +49,14 @@ The `Order` data type allows you to define the order of options. It's used for p
 
 ## PoolImage
 
-`PoolImage` is similar to `OrderImage` but tailored for a large amount of options. You can set the sequence of images selected from a pool. It also allows user to select multiple types of the same item if configured.
+`PoolImage` is similar to `OrderImage` but tailored for a large amount of options. You can set the sequence of images selected from a pool. It also allows the user to select multiple types of the same item if configured.
 
 [Learn more about PoolImage Data](poolimagedata.md)
 
 ## SlotImage
 
-`SlotImage` is a type of order image that is needed when the amonut of selected items is smaller than the total, but is not flexible and needs to be ordered.
+`SlotImage` is a type of order image needed when the amount of selected items is smaller than the total, but is fixed and needs to be ordered.
 
 [Learn more about SlotImage Data](slotimagedata.md)
 
 These selection and order types provide the tools you need to handle choices, priorities, and ordering of data in your applications or projects.
-
-
-

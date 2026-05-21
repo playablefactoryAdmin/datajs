@@ -5,7 +5,9 @@ In the Data.js library, you'll find a variety of basic data types that allow you
 - [Boolean](booleandata.md)
 - [Range](rangedata.md)
 - [Color](colordata.md)
+- [ColorAdvanced](coloradvanceddata.md)
 - [Text](textdata.md)
+- [RichText](richtextdata.md)
 
 ## Boolean
 
@@ -25,10 +27,22 @@ The `Color` data type allows you to represent color values. It's commonly used f
 
 [Learn more about Color Data](colordata.md)
 
+## ColorAdvanced
+
+The `ColorAdvanced` data type extends `Color` with the advanced color picker — useful when you need gradients or other complex color values.
+
+[Learn more about ColorAdvanced Data](coloradvanceddata.md)
+
 ## Text
 
-The `Text` data type represents textual content with various formatting options. It's used for displaying and formatting text in your applications.
+The `Text` data type represents textual content with various formatting options (alignment, color, stroke, shadow, font, TTS). It's used for displaying and formatting text in your applications.
 
 [Learn more about Text Data](textdata.md)
+
+## RichText
+
+The `RichText` data type represents formatted text content using a rich editor with themes and configurable modules/formats.
+
+[Learn more about RichText Data](richtextdata.md)
 
 These basic data types provide the foundation for working with data in Data.js, and they are essential building blocks for more complex data structures and applications.
